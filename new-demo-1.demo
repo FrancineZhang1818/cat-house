@@ -1,0 +1,152 @@
+=== FILE index.html ===
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ASCII Garden</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+	<pre class="cat-house">
+
+
+
+
+
+
+
+	
+
+
+		
+
+
+		
+
+
+
+
+
+
+
+		
+
+		      *                                                                                                                         *
+                     /\                                                                                                                       /\
+                    /  \%%%%%%%%%%%%%%%%%%%%%%%%%%/  \
+                   /                                                                                                                                \
+                  /____________________________________________________\
+                  oooooooooooooooooooooooooooooooooo
+                  oo****************************************oo
+	          o                                                                                                                                o
+                  R                                                                                                                                R
+	          R                                                                                                                                R
+		  R                                                                                                                                R
+		  R                                                                                                                                R
+		  R                                                                                                                                R                                                    
+		  R                                                                                                                                R
+		  R                                                                                                                                R
+		  R                                                                                                                                R
+		  R                                                                                                                                R
+                                                 		                                           /\_/\
+                        		                /\_/\            
+		                                 		                                        ( ^.^ )
+                      		                     ( o.o )      
+		                                    		                                           > w <
+                        		               > ^ <           
+
+
+                                /\_/\                                           /\_/\            
+		 
+                               ( -.- )                                       ( X_X )
+		               
+                                > ^ <                                           > ~ <                        /\_/\
+
+                                                                                                                          ( >.< ) 
+                                                           /\_/\
+									                                                    > ^ < 
+                                                        ( ^*^ )
+		
+                                                           > ^ <
+</pre>
+		
+		
+	<pre>
+		<script src="script.js"></script>
+	</pre>
+</html>
+
+=== FILE style.css ===
+/* Default CSS styling overrides */
+* {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	min-height: 100%;
+}
+
+/* Write your CSS here! */
+@font-face {
+	font-family: "Pixeie";
+	src: url("Pixeie.otf");
+}
+
+body {
+	font-family: "Pixeie";
+
+	background: linear-gradient(180deg, rgba(0, 212, 255, 1) 0%, rgba(184, 243, 255, 1) 9%, rgba(219, 235, 255, 1) 14%, rgba(255, 217, 247, 1) 18%, rgba(255, 213, 122, 1) 25%, rgba(248, 255, 43, 1) 32%, rgba(235, 252, 255, 1) 42%);
+
+	color: #090979;
+	margin: 0;
+	min-height: 100vh;
+}
+
+.cat-house {
+	font-family: "Pixeie";
+	color: pink;
+	font-size: 10px;
+	letter-spacing: -0.1em;
+	line-height: 0.6em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: translateX(34px);
+
+}
+=== FILE script.js ===
+const house = document.querySelector(".cat-house");
+
+house.addEventListener("click", function () {
+
+    if (house.style.color == "pink") {
+        house.style.color = "rgba(150, 228, 242, 1)";
+    } else {
+        house.style.color = "pink";
+    }
+
+});
+=== MEDIA Pixeie.otf ===
+data:application/octet-stream;base64,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
+=== INFO ===
+Let’s write some code! This is a (mostly) empty demo to help you get started.
+
+```faq
+Q: How do I edit this demo?
+1. Add **content** to your page in the `index.html` file.
+2. Edit the **design** of your page in the `style.css` file.
+3. Change the **functionality** of your page in the `script.js` file.
+4. Switch between (or add new) files using the **tabs** above the editor. The files are linked together through the `index.html` file.
+5. The **preview** on the right updates as you edit your code.
+
+Q: How do I save demos?
+Save and load demos using the **Save Demo** and **Load Demo** buttons in the top-right corner! Use the **Download** button to download all the files in your demo, as well as a `.demo` file. Upload this file back to DEMOLAND to load in all the files for a demo at once.
+
+> **WARNING:** DEMOLAND saves your demos in this browser, on this computer (including any files you upload). Clearing your browser’s site data, switching to another browser, or working in a private window means your saved demos won’t be there. Download anything you want to keep!
+
+Q: What does the code in the demo template do?
+This demo features some pre-existing code to help make your site run better. Read the **notes** contained in each file to see what each line of code does!
+
+- The `index.html` file contains **meta** information that tells your web browser how to render your website. This file also connects your page to separate CSS and JavaScript files.
+- The `style.css` file contains some basic overrides for default web styles.
+- The `script.js` file contains a single line of code that should make a message appear in the **console**. If this message doesn’t appear, then the JavaScript file isn’t connected properly!
