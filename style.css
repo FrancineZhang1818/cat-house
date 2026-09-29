@@ -25,12 +25,12 @@ body {
 .cat-house {
 	font-family: "Pixeie";
 	color: pink;
-	font-size: 80px;
+	font-size: 40px;
 	letter-spacing: -0.1em;
 	line-height: 0.6em;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	transform: translateX(34px);
+	transform: translateX(140px);
 
 }
