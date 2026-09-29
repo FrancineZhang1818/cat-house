@@ -12,70 +12,6 @@
 
 
 
-
-
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		
-
-
-		
-
-
-
-
-
-
-
-
-
-
-		
-
-
-		
-
-
-
-
-
-
-
-
-
-
-		
-
-
-		
-
-
-
-
-
-
-
-
-
-
 		
 
 
@@ -172,7 +108,7 @@ body {
 .cat-house {
 	font-family: "Pixeie";
 	color: pink;
-	font-size: 2000px;
+	font-size: 500px;
 	letter-spacing: -0.1em;
 	line-height: 0.6em;
 	display: flex;
